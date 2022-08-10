@@ -4,3 +4,16 @@
   font-family: sans-serif;
   text-decoration: none;
 }
+
+header {
+  display: flex;
+  border: 2px solid black;
+}
+
+main {
+  border: 2px solid black;
+}
+
+footer {
+  border: 2px solid black;
+}
