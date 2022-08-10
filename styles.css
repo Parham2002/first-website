@@ -66,3 +66,20 @@ main .section2__imginfo {
   margin-top: 20;
   margin-left: 3;
 }
+main .section3 h2 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+main .section3 .card {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10;
+  margin-left: 50;
+}
+main .section3 .card__item {
+  border: 1px solid black;
+  height: 550px;
+  width: 80%;
+  margin: 20;
+}
