@@ -6,8 +6,27 @@
 }
 
 header {
+  width: 100%;
+  height: 40px;
   display: flex;
   border: 2px solid black;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  width: 40%;
+  margin-left: 100px;
+}
+header .nav-links {
+  width: 30%;
+  word-spacing: 50px;
+}
+header .button {
+  padding: 2px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  background-color: skyblue;
+  word-spacing: 0;
 }
 
 main {
