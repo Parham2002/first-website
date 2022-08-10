@@ -9,9 +9,9 @@ body .button {
   color: black;
   padding: 5px;
   font-style: bold;
-  border: 2px solid black;
+  border: 2px solid navy;
   border-radius: 5px;
-  background-color: skyblue;
+  background-color: #BAE8E8;
   word-spacing: 0;
 }
 body header {
@@ -43,4 +43,26 @@ main .section1 h1 {
 }
 main .section1 .button {
   padding: 15 30;
+}
+main .section2 {
+  margin-top: 200px;
+}
+main .section2__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .section2__text p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+main .section2__images, main .section2__imginfo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .section2__imginfo {
+  margin-top: 20;
+  margin-left: 3;
 }
