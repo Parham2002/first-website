@@ -5,6 +5,10 @@
   text-decoration: none;
 }
 
+body {
+  width: 100%;
+  min-width: 765px;
+}
 body .button {
   color: black;
   padding: 5px;
@@ -14,20 +18,20 @@ body .button {
   background-color: #BAE8E8;
   word-spacing: 0;
 }
-body header {
-  width: 100%;
+
+header {
   height: 40px;
   margin-top: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-body header .logo {
+header .logo {
   width: 40%;
   margin-left: 100px;
 }
-body header .nav-links {
-  width: 30%;
+header .nav-links {
+  min-width: 425px;
   word-spacing: 50px;
   margin-right: 50px;
 }
@@ -73,13 +77,24 @@ main .section3 h2 {
 }
 main .section3 .card {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 30% 30% 30%;
   padding: 10;
-  margin-left: 50;
+  margin-left: 10%;
 }
 main .section3 .card__item {
   border: 1px solid black;
-  height: 550px;
-  width: 80%;
+  height: 600px;
   margin: 20;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+main .section3 .card__img {
+  height: 50%;
+}
+main .section3 .card__text {
+  height: 40%;
+}
+main .section3 .card__button {
+  height: 10%;
 }
