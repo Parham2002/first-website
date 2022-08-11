@@ -23,6 +23,7 @@ body .button {
 body .button:hover {
   color: white;
   background-color: red;
+  border-color: red;
 }
 
 header {
@@ -41,6 +42,12 @@ header .nav-links {
   min-width: 425px;
   word-spacing: 50px;
   margin-right: 50px;
+}
+header .nav-links a {
+  color: white;
+}
+header .nav-links a:hover {
+  color: red;
 }
 
 .video-container {
@@ -98,17 +105,18 @@ main .section3 .card {
   margin-left: 10%;
 }
 main .section3 .card__item {
+  background-color: gray;
   max-width: 300px;
   min-width: 300px;
   min-height: 500px;
   border: 1px solid black;
+  border-radius: 10px;
   margin: 20;
   display: flex;
   flex-direction: column;
   padding: 5px;
 }
 main .section3 .card__img {
-  background-color: gray;
   height: 60%;
 }
 main .section3 .card__text {

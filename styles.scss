@@ -23,6 +23,7 @@ body {
     .button:hover {
         color: white;
         background-color: red;
+        border-color: red;
         
     }
 }
@@ -45,7 +46,12 @@ header {
         min-width: 425px;
         word-spacing: 50px;
         margin-right: 50px;
-        
+        a {
+            color: white;
+        }
+        a:hover {
+            color: red;
+        }
     }
 
 
@@ -123,10 +129,12 @@ main {
         }
 
         .card__item {
+            background-color: gray;
             max-width: 300px;
             min-width: 300px;
             min-height: 500px;
             border: 1px solid black;
+            border-radius: 10px;
             margin: 20;
             display: flex;
             flex-direction: column;
@@ -134,7 +142,6 @@ main {
         }
 
         .card__img {
-            background-color: gray;
             height: 60%;
         }
 
