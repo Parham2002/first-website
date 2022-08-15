@@ -59,56 +59,56 @@ header .nav-links :hover:not(:last-child) {
   overflow: hidden;
 }
 
-main .section1 {
+main .top-page {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin-top: 150px;
 }
-main .section1 h1 {
+main .top-page h1 {
   font-size: 3em;
 }
-main .section1 .button {
+main .top-page .button {
   padding: 15 30;
 }
-main .section2 {
+main .technical-skills {
   margin-top: 250px;
 }
-main .section2__text {
+main .technical-skills__text {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-main .section2__text p {
+main .technical-skills__text p {
   margin-top: 100px;
   margin-bottom: 100px;
   text-align: center;
   padding: 30px;
 }
-main .section2__images, main .section2__imginfo, main .section2__imginfo * {
+main .technical-skills__images, main .technical-skills__imginfo, main .technical-skills__imginfo * {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
 }
-main .section2__imginfo {
+main .technical-skills__imginfo {
   margin-top: 10px;
 }
-main .section2__imginfo :nth-child(2) {
+main .technical-skills__imginfo :nth-child(2) {
   margin-left: 20px;
 }
-main .section3 h2 {
+main .cards h2 {
   text-align: center;
   margin-top: 100px;
   margin-bottom: 100px;
 }
-main .section3 .card {
+main .cards .card {
   min-width: 1100px;
   display: grid;
   grid-template-columns: 30% 30% 30%;
   padding: 10;
   margin-left: 10%;
 }
-main .section3 .card__item {
+main .cards .card__item {
   background-color: gray;
   max-width: 300px;
   min-width: 300px;
@@ -120,34 +120,34 @@ main .section3 .card__item {
   flex-direction: column;
   padding: 5px;
 }
-main .section3 .card__item .card__text {
+main .cards .card__item .card__text {
   text-align: center;
 }
-main .section3 .card__item .card__link {
+main .cards .card__item .card__link {
   color: black;
-  margin-left: 20px;
-  margin-right: 15px;
+  margin-left: 15%;
+  margin-right: 10%;
 }
-main .section3 .card__item .card__link:hover {
+main .cards .card__item .card__link:hover {
   color: red;
 }
-main .section3 .card__img {
+main .cards .card__img {
   height: 60%;
 }
-main .section3 .card__text {
+main .cards .card__text {
   height: 30%;
 }
-main .section3 .card__button {
+main .cards .card__button {
   margin-top: 15px;
 }
-main .section4 {
+main .about {
   background-color: #555252;
   display: flex;
   align-items: center;
   text-align: center;
   padding: 30px;
 }
-main .section4 img {
+main .about img {
   border-radius: 5px;
 }
 
@@ -172,14 +172,14 @@ footer nav {
   main {
     width: 100%;
   }
-  main .section1 {
+  main .top-bar {
     border: 2px solid red;
   }
-  main .section3 .card {
+  main .cards .card {
     grid-template-columns: 100%;
     margin-left: 25%;
   }
-  main .section4 {
+  main .about {
     flex-direction: column;
   }
 
